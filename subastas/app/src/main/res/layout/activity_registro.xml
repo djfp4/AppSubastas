@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Registro">
+
+    <EditText
+        android:id="@+id/usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50pt"
+        android:ems="10"
+        android:hint="Nombre de usuario"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/clave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10pt"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10pt"
+        android:ems="10"
+        android:hint="Nombre(s)"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/apellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10pt"
+        android:ems="10"
+        android:hint="Apellido(s)"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10pt"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10pt"
+        android:ems="10"
+        android:hint="Telefono"
+        android:inputType="numberDecimal|textEmailAddress" />
+
+    <Button
+        android:id="@+id/btn_registro"
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10pt"
+        android:layout_marginTop="10pt"
+        android:text="Registrarse" />
+</LinearLayout>
