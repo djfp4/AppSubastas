@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class RegistroRequest extends StringRequest {
-    private static final String ruta = "https://sellfasterrr.000webhostapp.com/loginP.php";
+    private static final String ruta = "https://sellfasterrr.000webhostapp.com/registroP.php";
     private Map<String,String> parametros;
     public RegistroRequest(String usuario, String clave, String nombre, String apellido, String email, String telefono, Response.Listener<String> listener)
     {

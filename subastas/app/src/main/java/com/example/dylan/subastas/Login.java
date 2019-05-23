@@ -22,10 +22,12 @@ public class Login extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        TextView registro = (TextView)findViewById(R.id.registro);
+        final Button registro = (Button) findViewById(R.id.registro);
         registro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent Iregistro = new Intent (Login.this, Registro.class);
+                Login.this.startActivity(Iregistro);
 
             }
         });

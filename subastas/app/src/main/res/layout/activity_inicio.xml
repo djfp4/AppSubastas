@@ -11,7 +11,13 @@
     <TextView
         android:id="@+id/Info"
         android:layout_width="match_parent"
-        android:layout_height="219dp"
-        android:layout_marginTop="100pt"
-        android:text="Bienvenido"/>
+        android:layout_height="94dp"
+        android:text="Bienvenido" />
+
+    <ListView
+        android:id="@+id/lista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+    </ListView>
 </LinearLayout>

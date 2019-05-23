@@ -11,7 +11,7 @@
         android:id="@+id/usuario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50pt"
+        android:layout_marginTop="15pt"
         android:ems="10"
         android:hint="Nombre de usuario"
         android:inputType="textPersonName" />
